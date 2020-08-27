@@ -1,0 +1,97 @@
+/*Common css attributes for all files*/
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Light";
+    src: url("../fonts/GillSans-Light.ttf");
+}
+/*
+#horizontal_line{
+    align-items: center;
+    background-color: rgb(9, 150, 248); color: rgb(255, 255, 255);
+    border: 0px solid rgb(6, 117, 211);
+    border-radius: 3px;
+    box-sizing: content-box;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 19px; font-style: inherit;
+    font-stretch: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    height: 1px;
+    justify-content: center;
+    line-height: 1;
+    margin: 0px;
+    overflow: unset;
+    padding: 0px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: baseline;
+    width: auto;
+}
+*/
+/*
+.resize-fit-center {
+    max-width:100%;
+    max-height:100px;
+}
+*/
+
+hr {
+    margin: 5px 0;
+    border: none;
+    border-top: 1px solid #aaa;
+    height: 1px;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+h3 {
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+
+    hr {
+        border-top: 1px solid #555;
+    }
+
+}
+
+.loader {
+    border: 16px solid #bbb; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media screen and (min-width: 700px) {
+    .test {
+        text-align: center;
+    }
+}

@@ -1,0 +1,37 @@
+.btn-archive img{
+  border-radius: 5px;
+  max-height:25px;
+  max-width:25px;
+
+}
+
+.text_elements{
+  color:white;
+  max-width: 100%;
+}
+.cover-img{
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  display:block;
+  height:168px;
+  margin:10px auto;
+  width: 120px;
+}
+.popup-title{
+  color:#eee;
+  text-align: center;
+}
+
+.tooltip.in{
+  opacity: 1;
+}
+
+
+.bottom_details{
+  background-color: #eee;
+  width: 100%;
+  padding: 1px 5px 1px 5px;
+  margin-bottom: 3px;
+  border-radius: 3px;
+}

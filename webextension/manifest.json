@@ -1,0 +1,69 @@
+{
+  "manifest_version": 2,
+  "name": "Wayback Machine",
+  "version": "3.0.0.12",
+  "description": "The Official Wayback Machine Extension - by the Internet Archive.",
+  "icons": {
+    "16": "images/app-icon/mini-icon16.png",
+    "24": "images/app-icon/mini-icon24.png",
+    "32": "images/app-icon/mini-icon32.png",
+    "48": "images/app-icon/mini-icon48.png",
+    "64": "images/app-icon/app-icon64.png",
+    "96": "images/app-icon/app-icon96.png",
+    "128": "images/app-icon/app-icon128.png",
+    "256": "images/app-icon/app-icon256.png",
+    "512": "images/app-icon/app-icon512.png",
+    "1024": "images/app-icon/app-icon1024.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/toolbar/toolbar-icon-archive16.png",
+      "24": "images/toolbar/toolbar-icon-archive24.png",
+      "32": "images/toolbar/toolbar-icon-archive32.png",
+      "64": "images/toolbar/toolbar-icon-archive64.png"
+    }
+  },
+  "homepage_url": "https://archive.org/",
+  "permissions": [
+      "activeTab",
+      "cookies",
+      "contextMenus",
+      "notifications",
+      "storage",
+      "bookmarks",
+      "tabs",
+      "webRequest",
+      "webRequestBlocking",
+      "cookies",
+      "https://archive.org/*",
+      "https://*.archive.org/*",
+      "http://web.archive.org/*",
+      "http://crawl-services.us.archive.org:8200/*",
+      "https://xml.alexa.com/*",
+      "https://hypothes.is/*",
+      "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["scripts/utils.js",
+                "scripts/background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.wikipedia.org/*", "https://*.wikipedia.org/*"],
+      "js": ["scripts/build.js", "scripts/utils.js", "scripts/wikipedia.js", "scripts/wikipedia_loader.js"],
+      "css": ["css/style.css", "css/wikipedia.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*",
+    "scripts/build.js",
+    "scripts/archive.js",
+    "scripts/RTcontent.js",
+    "css/RTstyle.css",
+    "css/sequences.css",
+    "css/googlestyle.css",
+    "css/radial-tree.css",
+    "css/archive.css"
+  ]
+}

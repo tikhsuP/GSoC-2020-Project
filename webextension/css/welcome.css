@@ -1,0 +1,23 @@
+
+body {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 2em;
+}
+
+#header {
+    font-size: 30px;
+    text-align: center;
+}
+
+div#content > h1 {
+    text-align: center;
+}
+
+#content {
+    margin: auto 15vw 10vh 15vw;
+}
+
+p {
+    text-align: justify;
+}
