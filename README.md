@@ -1,8 +1,8 @@
 # GSoC(2020) Project for Internet Archive
 
-Being a part of GSoC 2020 gave me an opportunity to be a member of the Internet Archive and get involved in enhancing the features of the Wayback Machine's browser extension. I am deeply grateful to my mentors Mark Graham (mark@archive.org) and Anish Kumar Sarangi (anish.kumar.sarangi@gmail.com) for letting me be a part of the Internet Archive community and guiding me throughout the program.
+Being a part of **GSoC 2020** gave me an opportunity to be involved in enhancing the features of the Wayback Machine's browser extension. I am deeply grateful to my mentors Mark Graham (mark@archive.org) and Anish Kumar Sarangi (anish.kumar.sarangi@gmail.com) for letting me be a part of the Internet Archive community and guiding me throughout the program.
 
-## Project:  Continue development of the Chrome extension "Wayback Machine"
+## Project Description:
 
 In this project, I contributed along with the Internet Archive developers in order to continue the development of the Wayback Machine's Chrome extension, which was later enhanced to support various other browsers including Firefox, Edge, Safari, and Brave.
 The project is divided into 5 features, each having a different utility such that the people interested in researching the web may find useful. All of the following 5 features have been merged to the [Internet Archive's Wayback Machine Chrome repository](https://github.com/internetarchive/wayback-machine-chrome):
@@ -14,7 +14,7 @@ This enhancement/feature allows the user to enter a URL in the Search Box and en
 
 ### 2. Added 'Fact Check' feature:
 
-Integrated the [our.news](https://our.news/) fact check API with the Wayback Machine extension. Added the auto-detection option in the settings menu that, when checked, automatically detects the availability of fact checks and displays the **'F'** icon in the toolbar and shows a purple **'Fact Check'** button in the extension if fact checks are available. And allows the user to see the available fact checks in a tab/window. The users who like to check the authenticity of the information displayed on the websites may find this feature helpful.
+Integrated the [our.news](https://our.news/) fact check API with the Wayback Machine extension. Added the auto-detection checkbox option in the settings menu that, when checked, automatically detects the availability of fact checks and displays the **'F'** icon in the toolbar and shows a purple **'Fact Check'** button in the extension if fact checks are available. And allows the user to see the available fact checks in a tab/window. The users who like to check the authenticity of the information displayed on the websites may find this feature helpful.
 
 
 ### 3. Added 'Bulk Save' feature:
