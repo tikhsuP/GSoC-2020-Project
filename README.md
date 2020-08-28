@@ -1,6 +1,6 @@
 # GSoC(2020) Project for Internet Archive
 
-Being a part of **GSoC 2020** gave me an opportunity to be involved in enhancing the features of the Wayback Machine's browser extension. I am deeply grateful to my mentors [Mark Graham](https://github.com/markjgraham) (mark@archive.org) and [Anish Kumar Sarangi](https://github.com/anishsarangi) (anish.kumar.sarangi@gmail.com) for letting me be a part of the Internet Archive community and guiding me throughout the program. I would also like to express my sincere gratitude to [Carl Gorringe](https://github.com/cgorringe) (carl@gorringe.org) for his generous support and guidance throughout the summer.
+Being a part of **GSoC 2020** gave me an opportunity to be involved in enhancing the features of the Wayback Machine's browser extension. I am deeply grateful to my mentors [Mark Graham](https://github.com/markjgraham) (mark@archive.org) and [Anish Kumar Sarangi](https://github.com/anishsarangi) (anish.kumar.sarangi@gmail.com) for letting me be a part of the Internet Archive community and guiding me throughout the program. I would also like to express my sincere gratitude to [Carl Gorringe](https://github.com/cgorringe) (carlg@archive.org) for his generous support and guidance throughout the summer.
 
 ## Project Description:
 
