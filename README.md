@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/tikhsuP/GSoC-2020-Project/blob/master/webextension/images/logo.gif" width="300px">
+</p>
+
 # GSoC(2020) Project for Internet Archive
 
 Being a part of **GSoC 2020** gave me an opportunity to be involved in enhancing the features of the Wayback Machine's browser extension. I am deeply grateful to my mentors [Mark Graham](https://github.com/markjgraham) (mark@archive.org) and [Anish Kumar Sarangi](https://github.com/anishsarangi) (anish.kumar.sarangi@gmail.com) for letting me be a part of the Internet Archive community and guiding me throughout the program. I would also like to express my sincere gratitude to [Carl Gorringe](https://github.com/cgorringe) (carlg@archive.org) for his generous support and guidance throughout the summer.
@@ -11,11 +15,18 @@ The project is divided into 5 features, each having a different utility such tha
 
 This enhancement/feature allows the user to enter a URL in the Search Box and enables the extension features to work on this URL, without needing the user to open it in a new tab/window. The user can simply enter a URL in the Search (input) Box and operate the extension features on this URL.
 
+<p align="center">
+  <img src="https://github.com/tikhsuP/GSoC-2020-Project/blob/master/webextension/images/UseSearchURL.png" width="300px">
+</p>
+
 
 ### 2. Added 'Fact Check' feature:
 
 Integrated the [our.news](https://our.news/) fact check API with the Wayback Machine extension. Added the auto-detection checkbox option in the settings menu that, when checked, automatically detects the availability of fact checks and displays the **'F'** icon in the toolbar and shows a purple **'Fact Check'** button in the extension if fact checks are available. And allows the user to see the available fact checks in a tab/window. The users who like to check the authenticity of the information displayed on the websites may find this feature helpful.
 
+<p align="center">
+  <img src="https://github.com/tikhsuP/GSoC-2020-Project/blob/master/webextension/images/toolbar/toolbar-icon-F64.png" width="64px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/tikhsuP/GSoC-2020-Project/blob/master/webextension/images/fact-check.png" width="300px">
+</p>
 
 ### 3. Added 'Bulk Save' feature:
 
@@ -45,11 +56,18 @@ These are the features that were implemented during the summer but were not merg
 ### 1. Add Link Sharing and Email Sharing buttons in the share section:
 
 These features are additions to the share section and enable the user to share the opened page/URL through email sharing and/or link sharing.
+<p align="center">
+  <img src="https://github.com/tikhsuP/GSoC-2020-Project/blob/master/webextension/images/sharing.png" width="300px">
+</p>
 
 
 ### 2. Add a button to share the extension:
 
 This feature enables the user to share the link to the browser's extension store page from where the Wayback Machine extension can be downloaded. This was developed in order to ensure that the users share and download the original extension developed by the Internet Archive.
+
+<p align="center">
+  <img src="https://github.com/tikhsuP/GSoC-2020-Project/blob/master/webextension/images/share.png" width="300px">
+</p>
 
 
 ## Credits
